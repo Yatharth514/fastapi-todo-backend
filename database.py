@@ -17,4 +17,3 @@ users_collection = db["users"]
 todos_collection.create_index("user_id")
 
 print("Connected to MongoDB successfully")
-print("Mongo URL:", MONGO_URL)
